@@ -1,0 +1,27 @@
+{
+    "name": "rlinaresdev/users",
+    "description": "Librería de usuarios",
+    "keywords": ["laravel, library"],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Ing. Ramón A Linares Febles",
+            "email": "rlinares4381@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "Malla\\User": "/",
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
