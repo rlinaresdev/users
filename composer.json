@@ -17,7 +17,7 @@
         "classmap": [
         ],
         "psr-4": {
-            "Malla\\User": "/",
+            "Malla\\User\\": "/",
         }
     },
     "config": {

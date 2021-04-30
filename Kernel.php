@@ -1,5 +1,5 @@
 <?php
-namespace Malla\User\Model;
+namespace Malla\User;
 
 /*
  *---------------------------------------------------------
@@ -22,5 +22,6 @@ class Kernel {
 	}
 
 	public function handler($app) {
+		
 	}
 }

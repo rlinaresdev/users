@@ -17,8 +17,8 @@ class Info {
 		return [
 			"type"			   => "library",
 			"slug"			   => "user",
-			"kernel"		   => Malla\User\Kernel::class,
-			"info"			   => Malla\User\Info::class,
+			"kernel"		   => \Malla\User\Kernel::class,
+			"info"			   => \Malla\User\Info::class,
 			"token"			   => NULL,
 			"activated" 	 => 1,
 		];
